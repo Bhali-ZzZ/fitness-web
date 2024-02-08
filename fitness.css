@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* -----header----- */
+#header .fa-bars{
+    color: white;
+    outline: none;
+    border: none;
+}
+.navbar{
+    background-image: linear-gradient(to right , #9494a1 , #2b2a33 , #09090a);
+    top: 0;
+    position: sticky;
+}
+.navbar-brand img{
+    width: 30px;
+    margin-left: 30px;
+}
+.navbar-nav li a{
+    color: black;
+    float: right;
+    margin: 10px;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.navbar-nav li a:hover{
+    color: black;
+    float: right;
+    margin: 10px;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.navbar-nav li{
+    color: white;
+    background-color: black;
+    float: right;
+}
+#header{
+    height: 100vh;
+    background-image: url(header.png);
+    background-size: cover;
+}
+/* -------welcome----------- */
+.welcome{
+    padding: 20px 0px;
+    margin-top: -100px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+#welcome .btn-primary{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+}
+#welcome button a{
+    color: white;
+    font-family: serif;
+    text-decoration: none;
+}
+/* -------about-us-------- */
+#about-us{
+    background-color: beige;
+    margin-top: 40px;
+    padding: 20px 0px;
+}
+#about-us img{
+    height: 300px;
+}
+.prop{
+    padding: 30px 10px;
+    border-left: 4px solid black;
+}
+/* -------services------ */
+#services{
+    margin:30px 0 ;
+}
+#services .col-md-4 img{
+    width: 40px;
+    height: 40px;
+}
+/* ------features----- */
+#features{
+    background-image: url(midd.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+}
+#features .col-md-6 img{
+    margin-top: 150px;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+/* ------reviews------ */
+#reviews{
+    margin: 30px 0px;
+}
+#reviews .box{
+    border: 2px solid grey;
+    box-shadow: 10px 10px 10px black;
+}
+#reviews .box img{
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+/* ----------contact----------- */
+#contact{
+    margin-top: 150px;
+    background-image: url(footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#contact .box{
+    background-color: #184cc7;
+    color: white;
+    border-radius: 30px;
+    padding: 30px 0;
+}
+#contact .first-col h4 img{
+    width: 50px;
+    height: 50px;
+}
+#contact .first-col{
+    margin: 30px 0;
+}
+#contact .second-col{
+    
+    padding: 30px 0;
+}
+#contact .third-col{
+    padding: 30px 0;
+}
+#contact .third-col p i{
+    margin-right: 20px;
+}
+#contact .forth-col{
+    padding: 30px 0;
+}
+.forth-col p a img{
+    width: 40px;
+    height: 40px;
+}
+.forth-col p{
+    font-weight: 500;
+}
+.forth-col p a img:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.copyright-text{
+    background-color: black;
+    color: white;
+}
